@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oxygen and Life</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #5CCDC9;
+      color: #fff;
+    }
+    .header-title {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      margin-top: 20px;
+      color: #ffffff;
+    }
+    .infographic {
+      width: 100%;
+      max-height: 100vh;
+      object-fit: contain;
+    }
+    .text-block {
+      background-color: #1D7471;
+      border: 3px solid #fff;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px;
+      font-size: 1rem;
+    }
+    .section {
+      margin: 20px;
+      padding: 20px;
+      background-color: rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+    h2 {
+      color: #003d3a;
+    }
+    .question {
+      margin: 10px 0;
+    }
+    textarea, input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 6px;
+      border: none;
+      resize: none;
+      overflow: hidden;
+      font-size: 1rem;
+      background-color: #f4fffd;
+      color: #000;
+    }
+    .reflection-table textarea {
+      min-height: 60px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .reflection-title {
+      text-align: center;
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color: #003d3a;
+    }
+    .footer {
+      background-color: #024C68;
+      text-align: center;
+      padding: 15px;
+      color: #fff;
+      font-size: 1rem;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header-title">Surprising facts about oxygen</div>
+  <img src="Great Oxidation Event.jpg" alt="Infographic" class="infographic" />
+
+  <div class="text-block">
+    <p>
+      They say too much of anything is bad for you. Believe it or not, that's true of the oxygen that powers our bodies. If we breathed air that was more than 75% oxygen, we could die within days. Our lungs couldn't cope. Our bodies are used to air that's 21% oxygen and even that's harmful over a lifetime.
+    </p>
+    <p>
+      The body makes use of around 98% of the oxygen it takes in and the rest transforms into free radicals - molecules that attack and damage our cells over time. Oxygen, then, is actually toxic in large doses. But after 3–4 billion years of evolution of life on Earth, shouldn't our bodies be better at processing oxygen? To try to answer that question, it's important to understand that oxygen wasn't always present in the atmosphere. Because of this, scientists believe that the first life forms on the planet were anaerobic; they were able to survive without oxygen. It was only after plants established themselves that oxygen appeared in the atmosphere. This appearance of oxygen in the Earth's atmosphere some 2.2 billion years ago is known as the Great Oxidation Event.
+    </p>
+    <p>
+      Plants, unlike animals, don't need oxygen, but produce it through photosynthesis — the process by which they convert sunlight, water, and carbon dioxide into energy. Because oxygen is a by-product of photosynthesis, it took more than a billion years for enough of it to build up in the atmosphere and give rise to animal life.
+    </p>
+    <p>
+      Fossil evidence suggests animals first appeared about 700 million years ago, in the oceans. The first animal life forms had extremely thin bodies in relation to their size. Scientists believe this allowed them to make maximum use of the low amounts of oxygen present in the ocean. Around 500 million years ago, atmospheric oxygen levels were high enough to enable animals to venture out of the ocean and onto land.
+    </p>
+    <p>
+      The amount of oxygen in our atmosphere has not increased steadily. In fact, 300 million years ago, oxygen was actually more abundant in the air than it is now, making up 50% of it. As a result, animals were much bigger than they are today. There were insects, for example, which measured more than 2.5 feet from the tip of one wing to another. Scientists recently bred dragonflies this size in 50%-oxygen environments. They say the dragonflies were able to grow so big because in oxygen-rich atmospheres, insects don't need the large breathing systems which normally limit the size of their bodies. By 240 million years ago, though, oxygen levels had fallen to just 12% of the air.
+    </p>
+    <p>
+      If it's surprising that the amount of oxygen in the atmosphere has varied during animal evolution, it's perhaps even more surprising to learn that the planet is more dependent on oxygen produced in the oceans than on land. Scientists estimate that sea algae replace around 90% of the oxygen in the biosphere. So, today's most complex life forms not only originated in an environment in which they now cannot breathe — the ocean — they rely on it for their survival!
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>True / False Questions</h2>
+    <div class="question">1. Oxygen makes up more than 75% of the air we breathe.<br>
+      <label><input type="radio" name="q1"> True</label>
+      <label><input type="radio" name="q1"> False</label>
+    </div>
+    <div class="question">2. Our bodies could survive if we breathed air with 100% oxygen for a long time.<br>
+      <label><input type="radio" name="q2"> True</label>
+      <label><input type="radio" name="q2"> False</label>
+    </div>
+    <div class="question">3. Oxygen in large doses can actually be toxic.<br>
+      <label><input type="radio" name="q3"> True</label>
+      <label><input type="radio" name="q3"> False</label>
+    </div>
+    <div class="question">4. Plants produce oxygen through the process of photosynthesis.<br>
+      <label><input type="radio" name="q4"> True</label>
+      <label><input type="radio" name="q4"> False</label>
+    </div>
+    <div class="question">5. The first appearance of oxygen in the Earth's atmosphere happened only 500 million years ago.<br>
+      <label><input type="radio" name="q5"> True</label>
+      <label><input type="radio" name="q5"> False</label>
+    </div>
+    <div class="question">6. The amount of oxygen in the atmosphere has always remained the same.<br>
+      <label><input type="radio" name="q6"> True</label>
+      <label><input type="radio" name="q6"> False</label>
+    </div>
+    <div class="question">7. Early animals had small bodies because oxygen levels were low.<br>
+      <label><input type="radio" name="q7"> True</label>
+      <label><input type="radio" name="q7"> False</label>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Open Questions</h2>
+    <div class="question">
+      <label>How much oxygen does the body use from what we breathe in?</label>
+      <textarea rows="1"></textarea>
+    </div>
+    <div class="question">
+      <label>What happens if the air contains more than 75% oxygen?</label>
+      <textarea rows="1"></textarea>
+    </div>
+    <div class="question">
+      <label>What is the by-product of photosynthesis?</label>
+      <textarea rows="1"></textarea>
+    </div>
+    <div class="question">
+      <label>When did the first life forms appear in the oceans?</label>
+      <textarea rows="1"></textarea>
+    </div>
+    <div class="question">
+      <label>Why were early sea animals small?</label>
+      <textarea rows="1"></textarea>
+    </div>
+    <div class="question">
+      <label>Around how many million years ago did oxygen levels allow animals to move to land?</label>
+      <textarea rows="1"></textarea>
+    </div>
+    <div class="question">
+      <label>What happens to dragonflies in oxygen-rich environments?</label>
+      <textarea rows="1"></textarea>
+    </div>
+  </div>
+
+  <div class="section reflection-table">
+    <div class="reflection-title">Reflection</div>
+    <div class="question">
+      <label>How did the oxygen content in the Earth's atmosphere change, and why did it have such a strong influence on the development of life?</label>
+      <textarea rows="2"></textarea>
+    </div>
+    <div class="question">
+      <label>Imagine what the world would be like if the oxygen level had always been the same.</label>
+      <textarea rows="2"></textarea>
+    </div>
+    <div class="question">
+      <label>Do you consider oxygen to be a "friend" or an "enemy" to living organisms?</label>
+      <textarea rows="2"></textarea>
+    </div>
+  </div>
+
+  <div class="footer">
+    Work by Ponomareva Ulyana and Tagiev Elif 10 "A" class
+  </div>
+
+  <script>
+    const textareas = document.querySelectorAll('textarea');
+    textareas.forEach(el => {
+      el.setAttribute('style', 'height:' + el.scrollHeight + 'px;overflow-y:hidden;');
+      el.addEventListener('input', e => {
+        el.style.height = 'auto';
+        el.style.height = (el.scrollHeight) + 'px';
+      });
+    });
+  </script>
+</body>
+</html>
